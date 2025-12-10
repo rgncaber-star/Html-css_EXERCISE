@@ -1,0 +1,48 @@
+* { box-sizing:border-box;
+}
+
+body{
+margin: 0;
+}
+
+header{
+    background-color: thistle;
+    text-align: center;
+    padding: 25px;
+
+ }
+ .navbar{
+background-color: rgb(241, 239, 223) ;
+}
+
+
+aside{
+width:10%; 
+float:left;
+padding: 10px;
+}
+
+section{
+width:60%; 
+float:left;
+padding:10px;
+}
+
+article{
+border:2px solid; 
+width:20%; 
+float:left;
+padding: 10px;
+}
+
+footer{
+display:block; 
+clear:both;
+background-color:rgb(216, 155, 170); 
+text-align: center;
+padding: 25px;
+}
+
+@media screen and (max-width:600px)
+aside, section, article{
+‹ width:100%
